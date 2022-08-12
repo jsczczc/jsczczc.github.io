@@ -1,7 +1,8 @@
-//赌博是恶魔，输钱败家丢老婆，偷偷看福利网站，千万别给国家添乱！
-{"sites": [
-{"key":"1","name":"🔞🈲未成年人禁止访问！初级版本无需jar","type":0,"api":""},
-{"key":"18","name":"🔞🈲由【云星测评】公众号整理","type":0,"api":""},
+#赌博是恶魔，输钱败家丢老婆，偷偷看福利网站，千万别给国家添乱！
+#{"sites": [
+#{"key":"1","name":"🔞🈲未成年人禁止访问！初级版本无需jar","type":0,"api":""},
+#{"key":"18","name":"🔞🈲由【云星测评】公众号整理","type":0,"api":""},
+"lives":[{"group":"redirect","channels":[{"name":"live","urls":["proxy://do=live&type=txt&ext=aHR0cHM6Ly9qc2N6Y3pjLmdpdGh1Yi5pby9saXZlMi50eHQ="]}]}],
 {"key":"*芒果资源","name":"芒果资源","type":1,"api":"https://mgzyz1.com/api.php/provide/vod/","searchable":0,"quickSearch":0},
 {"key":"*丝袜资源","name":"丝袜资源","type":1,"api":"https://siwazyw.cc/api.php/provide/vod/","searchable":0,"quickSearch":0},
 {"key":"*秀色资源","name":"秀色资源","type":1,"api":"https://api.xiuseapi.com/api.php/provide/vod/","searchable":0,"quickSearch":0},
