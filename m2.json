@@ -1,6 +1,6 @@
 ﻿{
     "spider": "hhttps://jsczczc.github.io/tvboxa/M2.jar",
-      "lives":[{"group":"redirect","channels":[{"name":"live","urls":["proxy://do=live&type=txt&ext=aHR0cHM6Ly9qc2N6Y3pjLmdpdGh1Yi5pby9saXZlLnR4dA=="]}]}],
+      "lives":[{"group":"redirect","channels":[{"name":"live","urls":["proxy://do=live&type=txt&ext=aHR0cHM6Ly9qc2N6Y3pjLmdpdGh1Yi5pby9saXZlMi50eHQ="]}]}],
 
     "sites": [
         {"key":"csp_xpath_扛把子影院","name":"扛把子影院(xpf)","type":3,"api":"csp_XPathFilter","searchable":1,"quickSearch":1,"filterable":0,"ext":"https://breadmyth.github.io/tv/MeowXP/扛把子影院(xpf).json"},
