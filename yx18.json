@@ -1,3 +1,4 @@
+{"sites": [
 "lives":[{"group":"redirect","channels":[{"name":"live","urls":["proxy://do=live&type=txt&ext=aHR0cHM6Ly9qc2N6Y3pjLmdpdGh1Yi5pby9saXZlMi50eHQ="]}]}],
 {"key":"*芒果资源","name":"芒果资源","type":1,"api":"https://mgzyz1.com/api.php/provide/vod/","searchable":0,"quickSearch":0},
 {"key":"*丝袜资源","name":"丝袜资源","type":1,"api":"https://siwazyw.cc/api.php/provide/vod/","searchable":0,"quickSearch":0},
