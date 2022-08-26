@@ -125,7 +125,7 @@
 
 //jar+壁纸
 
-"spider":"https://yun.weetai.cn/资源包.jar","wallpaper":"https://tool.weetai.cn/api",
+"spider":"https://jsczczc.github.io/maotv0826.jar","wallpaper":"https://tool.weetai.cn/api",
 
 //电视直播
 
