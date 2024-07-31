@@ -7,3 +7,5 @@ Fanmingming：https://live.fanmingming.com/tv/m3u/index.m3u
 4k/8k: https://raw.githubusercontent.com/Ftindy/IPTV-URL/main/IPTV.m3u
 
 春盈直播：https://github.moeyy.xyz/https://raw.githubusercontent.com/jsczczc/jsczczc.github.io/main/chunyin.txt
+
+sylive: https://gitee.com/shangyunvip/yscdx/raw/master/lives/sylive.txt
