@@ -12,3 +12,13 @@ document.getElementById('addBookmark').addEventListener('click', () => {
 document.getElementById('uploadImage').addEventListener('click', () => {
     alert("功能开发中...");
 });
+
+document.getElementById('fileInput').addEventListener('change', (event) => {
+    const fileList = document.getElementById('fileList');
+    fileList.innerHTML = "";
+    Array.from(event.target.files).forEach(file => {
+        const listItem = document.createElement('div');
+        listItem.textContent = `文件名: ${file.name} | 大小: ${file.size} 字节`;
+        fileList.appendChild(listItem);
+    });
+});
