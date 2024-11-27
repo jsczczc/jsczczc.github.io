@@ -3,18 +3,19 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>jsczczc的GITHUB</title>
+    <title>我的个人主页</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <div id="app">
         <header>
-            <h1>jsczczc.github.io</h1>
+            <h1>我的个人主页</h1>
             <nav>
                 <ul>
                     <li><a href="#bookmarks">网址收藏</a></li>
                     <li><a href="#gallery">图片展示</a></li>
-                    <li><a href="#about">关于</a></li>
+                    <li><a href="#upload">文件上传</a></li>
+                    <li><a href="#about">关于我</a></li>
                 </ul>
             </nav>
         </header>
@@ -36,8 +37,15 @@
                 <button id="uploadImage">+ 上传图片</button>
             </section>
 
+            <section id="upload">
+                <h2>文件上传</h2>
+                <p>选择要上传的文件：</p>
+                <input type="file" id="fileInput" multiple>
+                <div id="fileList"></div>
+            </section>
+
             <section id="about">
-                <h2>关于</h2>
+                <h2>关于我</h2>
                 <p>这里是我的个人简介。</p>
             </section>
         </main>
