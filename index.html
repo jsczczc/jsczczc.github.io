@@ -3,57 +3,70 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>我的个人主页</title>
+    <title>jsczczc.github</title>
     <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
 </head>
 <body>
-    <div id="app">
-        <header>
-            <h1>我的个人主页</h1>
-            <nav>
-                <ul>
-                    <li><a href="#bookmarks">网址收藏</a></li>
-                    <li><a href="#gallery">图片展示</a></li>
-                    <li><a href="#upload">文件上传</a></li>
-                    <li><a href="#about">关于我</a></li>
-                </ul>
-            </nav>
-        </header>
+    <header>
+        <h1>jsczczc.github</h1>
+        <nav>
+            <ul>
+                <li><a href="#bookmarks">收藏</a></li>
+                <li><a href="#gallery">图片展示</a></li>
+                <li><a href="#upload">文件上传</a></li>
+            </ul>
+        </nav>
+    </header>
 
-        <main>
-            <section id="bookmarks">
-                <h2>网址收藏</h2>
-                <div class="bookmark-grid">
-                    <!-- 网址卡片 -->
-                </div>
-                <button id="addBookmark">+ 添加网址</button>
-            </section>
+    <section id="bookmarks">
+        <h2>收藏</h2>
+        <div class="bookmark-grid">
+            <div>
+                <h3>常用网址</h3>
+                <button onclick="addBookmark('url')">添加网址</button>
+                <ul id="url-list"></ul>
+            </div>
+            <div>
+                <h3>直播地址</h3>
+                <button onclick="addBookmark('live')">添加直播地址</button>
+                <ul id="live-list"></ul>
+            </div>
+            <div>
+                <h3>TVBox 配置</h3>
+                <button onclick="addBookmark('tvbox')">添加 TVBox 配置</button>
+                <ul id="tvbox-list"></ul>
+            </div>
+            <div>
+                <h3>代理订阅</h3>
+                <button onclick="addBookmark('proxy')">添加代理订阅</button>
+                <ul id="proxy-list"></ul>
+            </div>
+        </div>
+    </section>
 
-            <section id="gallery">
-                <h2>图片展示</h2>
-                <div class="gallery-grid">
-                    <!-- 图片卡片 -->
-                </div>
-                <button id="uploadImage">+ 上传图片</button>
-            </section>
+    
+    <section id="gallery">
+        <h2>图片展示</h2>
+        <div class="gallery-grid">
+            <!-- 动态加载图片 -->
+        </div>
+        <div class="image-input">
+            <button onclick="addImageFromURL()">从网络添加图片</button>
+            <input type="file" id="image-upload" accept="image/*" onchange="addImageFromFile(event)">
+            <label for="image-upload" style="cursor: pointer;">上传本地图片</label>
+        </div>
+    </section>
+    
 
-            <section id="upload">
-                <h2>文件上传</h2>
-                <p>选择要上传的文件：</p>
-                <input type="file" id="fileInput" multiple>
-                <div id="fileList"></div>
-            </section>
+    <section id="upload">
+        <h2>文件上传</h2>
+        <input type="file" id="file-upload" multiple>
+        <button onclick="uploadFiles()">上传</button>
+    </section>
 
-            <section id="about">
-                <h2>关于我</h2>
-                <p>这里是我的个人简介。</p>
-            </section>
-        </main>
-
-        <footer>
-            <p>© 2024 我的个人主页</p>
-        </footer>
-    </div>
-    <script src="script.js"></script>
+    <footer>
+        <p>版权所有 &copy; 2024</p>
+    </footer>
 </body>
 </html>
