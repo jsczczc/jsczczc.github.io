@@ -1,105 +1,116 @@
 body {
-    font-family: 'Arial', sans-serif;
+    font-family: 'Roboto', sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #f3f4f6;
-    background-image: radial-gradient(circle, #e0f7fa, #e3f2fd, #ede7f6);
-    color: #333;
+    background: linear-gradient(135deg, #e0f7fa, #b2ebf2, #80deea);
+    background-size: 400% 400%;
+    animation: backgroundAnimation 15s infinite;
+    color: #4f6367;
+}
+
+@keyframes backgroundAnimation {
+    0% { background-position: 0% 50%; }
+    50% { background-position: 100% 50%; }
+    100% { background-position: 0% 50%; }
 }
 
 header {
-    background: linear-gradient(90deg, #6a1b9a, #d500f9);
-    color: white;
-    padding: 1.5rem;
+    background: rgba(255, 255, 255, 0.9);
+    backdrop-filter: blur(8px);
+    padding: 2rem 1rem;
     text-align: center;
+    color: #00796b;
+    font-size: 2rem;
+    font-weight: bold;
+    text-transform: uppercase;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-    animation: headerAnimation 5s infinite alternate;
-}
-
-@keyframes headerAnimation {
-    0% { background-position: 0%; }
-    100% { background-position: 100%; }
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
 }
 
 nav ul {
     list-style: none;
+    padding: 0;
+    margin: 1rem 0 0 0;
     display: flex;
     justify-content: center;
     gap: 1.5rem;
-    margin: 0;
-    padding: 0;
 }
 
 nav a {
     text-decoration: none;
-    color: white;
+    color: #00796b;
+    font-size: 1rem;
     font-weight: bold;
-    position: relative;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    transition: all 0.3s ease;
 }
 
-nav a::after {
-    content: "";
-    position: absolute;
-    left: 0;
-    bottom: -5px;
-    height: 2px;
-    width: 100%;
-    background: white;
-    transform: scaleX(0);
-    transform-origin: right;
-    transition: transform 0.3s;
-}
-
-nav a:hover::after {
-    transform: scaleX(1);
-    transform-origin: left;
+nav a:hover {
+    color: #004d40;
+    text-shadow: 0 0 8px #80cbc4, 0 0 15px #004d40;
 }
 
 section {
-    padding: 3rem;
-    border-radius: 8px;
-    background: white;
-    margin: 2rem auto;
-    max-width: 1200px;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 2.5rem 1.5rem;
+    margin: 1.5rem auto;
+    max-width: 1100px;
+    background: rgba(255, 255, 255, 0.95);
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
     transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
 section:hover {
     transform: scale(1.02);
-    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2);
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 1.5rem;
+    color: #004d40;
+    font-size: 1.8rem;
+    letter-spacing: 1px;
+    border-bottom: 2px solid rgba(0, 0, 0, 0.1);
+    display: inline-block;
+    padding-bottom: 0.5rem;
 }
 
 .bookmark-grid, .gallery-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
     gap: 1rem;
+    margin: 1rem 0;
 }
 
 button {
     display: inline-block;
-    margin: 1rem 0;
     padding: 0.8rem 1.5rem;
-    background: linear-gradient(135deg, #8e24aa, #d81b60);
-    color: white;
+    background: linear-gradient(135deg, #80cbc4, #26a69a);
+    color: #ffffff;
     border: none;
     border-radius: 5px;
     font-size: 1rem;
     font-weight: bold;
     cursor: pointer;
-    transition: transform 0.2s ease, box-shadow 0.2s ease, background 0.3s ease;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
 }
 
 button:hover {
     transform: scale(1.1);
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
-    background: linear-gradient(135deg, #d81b60, #8e24aa);
+    box-shadow: 0 6px 15px rgba(0, 255, 200, 0.4);
+    background: linear-gradient(135deg, #26a69a, #004d40);
 }
 
 footer {
     text-align: center;
-    margin-top: 2rem;
     padding: 1rem;
-    background: linear-gradient(90deg, #d500f9, #6a1b9a);
-    color: white;
+    background: rgba(255, 255, 255, 0.9);
+    color: #004d40;
+    font-size: 0.9rem;
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
+    letter-spacing: 1px;
+    margin-top: 2rem;
 }
