@@ -3,16 +3,16 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>jsczczc.github</title>
+    <title>个人主页</title>
     <link rel="stylesheet" href="style.css">
     <script src="script.js" defer></script>
 </head>
 <body>
     <header>
-        <h1>jsczczc.github</h1>
+        <h1>七彩主页</h1>
         <nav>
             <ul>
-                <li><a href="#bookmarks">收藏</a></li>
+                <li><a href="#bookmarks">收藏网址</a></li>
                 <li><a href="#gallery">图片展示</a></li>
                 <li><a href="#upload">文件上传</a></li>
             </ul>
@@ -23,23 +23,24 @@
         <h2>收藏</h2>
         <div class="bookmark-grid">
             <div>
-                <h3>常用网址</h3>
-                <button onclick="addBookmark('url')">添加网址</button>
-                <ul id="url-list"></ul>
+                <button onclick="addBookmark('url')">常用网址</button>
+                <h4>范明明：https://live.fanmingming.com/tv/m3u/index.m3u<h4>
             </div>
             <div>
-                <h3>直播地址</h3>
-                <button onclick="addBookmark('live')">添加直播地址</button>
-                <ul id="live-list"></ul>
+                <button onclick="addBookmark('url')">直播地址</button>
+                <h5>范明明：https://live.fanmingming.com/tv/m3u/index.m3u<h5>
+	<h5>佛系：https://tv.iill.top/m3u/Gather<h5>
+	<h5>肥羊：https://mirror.ghproxy.com/https://raw.githubusercontent.com/Ftindy/IPTV-URL/main/Collect.m3u<h5>
+	<h5>AKTV：http://aktv.top/live.m3u<h5>
+	<h5>唐三海外：https://www.stream-link.org/stream-link.m3u<h5>
+	<h5>mytvwuper:https://dingyue.mytvsuper.xyz/myiptv.m3u<h5>
             </div>
             <div>
-                <h3>TVBox 配置</h3>
-                <button onclick="addBookmark('tvbox')">添加 TVBox 配置</button>
+                <button onclick="addBookmark('tvbox')">TVBox 配置</button>
                 <ul id="tvbox-list"></ul>
             </div>
             <div>
-                <h3>代理订阅</h3>
-                <button onclick="addBookmark('proxy')">添加代理订阅</button>
+                <button onclick="addBookmark('proxy')">代理订阅</button>
                 <ul id="proxy-list"></ul>
             </div>
         </div>
