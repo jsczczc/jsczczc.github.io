@@ -1,0 +1,75 @@
+#EXTM3U x-tvg-url="https://epg.v1.mk/fy.xml"
+#EXTINF:-1,tvg-id="凤凰资讯" tvg-name="凤凰资讯" tvg-logo="https://epg.v1.mk/logo/凤凰资讯.png" group-title="其他",鳳凰資訊
+ https://www.youtube.com/watch?v=sUISafvOieY
+#EXTINF:-1,tvg-id="凤凰卫视" tvg-name="凤凰卫视" tvg-logo="https://epg.v1.mk/logo/凤凰卫视.png" group-title="卫视",凤凰卫视
+ http://www.youtube.com/watch?v=dmDg7NfUoSw
+#EXTINF:-1,tvg-id="凤凰卫视" tvg-name="凤凰卫视" tvg-logo="https://epg.v1.mk/logo/凤凰卫视.png" group-title="卫视",凤凰卫视
+ https://www.youtube.com/watch?v=dmDg7NfUoSw
+#EXTINF:-1,tvg-id="凤凰资讯" tvg-name="凤凰资讯" tvg-logo="https://epg.v1.mk/logo/凤凰资讯.png" group-title="其他",﻿鳳凰資訊
+ http://www.youtube.com/watch?v=if6yQq_JJyY
+#EXTINF:-1,tvg-id="寰宇新闻" tvg-name="寰宇新闻" tvg-logo="https://epg.v1.mk/logo/寰宇新闻.png" group-title="其他",寰宇新聞
+ https://www.youtube.com/watch?v=B7Zp3d6xXWw
+#EXTINF:-1,tvg-id="镜新闻" tvg-name="镜新闻" tvg-logo="https://epg.v1.mk/logo/镜新闻.png" group-title="其他",鏡新聞
+ https://www.youtube.com/watch?v=5n0y6b0Q25o
+#EXTINF:-1,tvg-id="东森" tvg-name="东森" tvg-logo="https://epg.v1.mk/logo/东森.png" group-title="其他",東森Live
+ https://m.youtube.com/watch?v=E0zhe2gkXBs
+#EXTINF:-1,tvg-id="中天新闻" tvg-name="中天新闻" tvg-logo="https://epg.v1.mk/logo/中天新闻.png" group-title="其他",中天新聞
+ https://www.youtube.com/watch?v=oIgbl7t0S_w
+#EXTINF:-1,tvg-id="中天新闻" tvg-name="中天新闻" tvg-logo="https://epg.v1.mk/logo/中天新闻.png" group-title="其他",中天新聞
+ https://www.youtube.com/live/oIgbl7t0S_w?feature=share
+#EXTINF:-1,tvg-id="中天新闻2台" tvg-name="中天新闻2台" tvg-logo="https://epg.v1.mk/logo/中天新闻2台.png" group-title="其他",中天新聞2
+ https://www.youtube.com/watch?v=WPfPjbOLNfE
+#EXTINF:-1,tvg-id="三立LIVE" tvg-name="三立LIVE" tvg-logo="https://epg.v1.mk/logo/三立LIVE.png" group-title="其他",三立live
+ https://www.youtube.com/watch?v=FoBfXvlOR6I
+#EXTINF:-1,tvg-id="三立iNEWS" tvg-name="三立iNEWS" tvg-logo="https://epg.v1.mk/logo/三立iNEWS.png" group-title="其他",三立inews
+ https://www.youtube.com/watch?v=pF507BLtbqU
+#EXTINF:-1,tvg-id="三立NEWS+" tvg-name="三立NEWS+" tvg-logo="https://epg.v1.mk/logo/三立NEWS+.png" group-title="其他",三立NEWS+
+ https://www.youtube.com/watch?v=oZdzzvxTfUY
+#EXTINF:-1,tvg-id="民视新闻" tvg-name="民视新闻" tvg-logo="https://epg.v1.mk/logo/民视新闻.png" group-title="其他",民視新聞
+ https://www.youtube.com/watch?v=ylYJSBUgaMA
+#EXTINF:-1,tvg-id="华视新闻" tvg-name="华视新闻" tvg-logo="https://epg.v1.mk/logo/华视新闻.png" group-title="其他",華視新聞
+ https://www.youtube.com/watch?v=wM0g8EoUZ_E
+#EXTINF:-1,tvg-id="中视新闻" tvg-name="中视新闻" tvg-logo="https://epg.v1.mk/logo/中视新闻.png" group-title="其他",中視新聞
+ https://www.youtube.com/watch?v=TCnaIE_SAtM
+#EXTINF:-1,tvg-id="台视新闻" tvg-name="台视新闻" tvg-logo="https://epg.v1.mk/logo/台视新闻.png" group-title="其他",台視新聞
+ https://www.youtube.com/watch?v=xL0ch83RAK8
+#EXTINF:-1,tvg-id="9EBCBAEB-814A-4765-8885-DA4CF65AB326" tvg-name="9EBCBAEB-814A-4765-8885-DA4CF65AB326" tvg-logo="https://epg.v1.mk/logo/9EBCBAEB-814A-4765-8885-DA4CF65AB326.png" group-title="其他",EBC東森財經
+ https://www.youtube.com/watch?v=WHEPzbFA3hw
+#EXTINF:-1,tvg-id="三立财经新闻iNEWS" tvg-name="三立财经新闻iNEWS" tvg-logo="https://epg.v1.mk/logo/三立财经新闻iNEWS.png" group-title="其他",三立財經
+ https://www.youtube.com/watch?v=CKjSm5ZeehE
+#EXTINF:-1,tvg-id="TVBS新闻" tvg-name="TVBS新闻" tvg-logo="https://epg.v1.mk/logo/TVBS新闻.png" group-title="港澳台",TVBS新聞
+ https://www.youtube.com/watch?v=LiiHNIRODO8
+#EXTINF:-1,tvg-id="TVBSNEWS" tvg-name="TVBSNEWS" tvg-logo="https://epg.v1.mk/logo/TVBSNEWS.png" group-title="港澳台",TVBS NEWS LIVE
+ https://www.youtube.com/watch?v=m_dhMSvUCIc
+#EXTINF:-1,tvg-id="东森财经" tvg-name="东森财经" tvg-logo="https://epg.v1.mk/logo/东森财经.png" group-title="港澳台",东森财经股市
+ https://www.youtube.com/watch?v=LbS-xQ67fos
+#EXTINF:-1,tvg-id="公视3" tvg-name="公视3" tvg-logo="https://epg.v1.mk/logo/公视3.png" group-title="其他",公視直播
+ https://www.youtube.com/watch?v=4Uc00FPs27M
+#EXTINF:-1,tvg-id="CLASSIC_KONGFU" tvg-name="CLASSIC_KONGFU" tvg-logo="https://epg.v1.mk/logo/CLASSIC_KONGFU.png" group-title="其他",KOMPASTV
+ https://www.youtube.com/watch?v=4rmf-lk3ito
+#EXTINF:-1,tvg-id="CIBN东方购物" tvg-name="CIBN东方购物" tvg-logo="https://epg.v1.mk/logo/CIBN东方购物.png" group-title="其他",东京新宿
+ https://www.youtube.com/watch?v=DjdUEyjx8GM
+#EXTINF:-1,tvg-id="台湾地震" tvg-name="台湾地震" tvg-logo="https://epg.v1.mk/logo/台湾地震.png" group-title="其他",台灣地震監視
+ https://www.youtube.com/watch?v=Owke6Quk7T0
+#EXTINF:-1,tvg-id="SKYNEWS" tvg-name="SKYNEWS" tvg-logo="https://epg.v1.mk/logo/SKYNEWS.png" group-title="其他",Sky News
+ https://www.youtube.com/watch?v=9Auq9mYxFEE
+#EXTINF:-1,tvg-id="france24" tvg-name="france24" tvg-logo="https://epg.v1.mk/logo/france24.png" group-title="其他",FRANCE 24
+ https://www.youtube.com/watch?v=h3MuIUNCCzI
+#EXTINF:-1,tvg-id="ABCNEWS" tvg-name="ABCNEWS" tvg-logo="https://epg.v1.mk/logo/ABCNEWS.png" group-title="其他",ABC News
+ https://www.youtube.com/watch?v=w_Ma8oQLmSM
+#EXTINF:-1,tvg-id="EURONEWS" tvg-name="EURONEWS" tvg-logo="https://epg.v1.mk/logo/EURONEWS.png" group-title="其他",Euronews English
+ https://www.youtube.com/watch?v=pykpO5kQJ98
+#EXTINF:-1,tvg-id="DW Deutsch" tvg-name="DW Deutsch" tvg-logo="https://epg.v1.mk/logo/DW Deutsch.png" group-title="其他",DW
+ https://www.youtube.com/watch?v=pqabxBKzZ6M
+#EXTINF:-1,tvg-id="92PX-TENNIS_CHANNEL_LOGO" tvg-name="92PX-TENNIS_CHANNEL_LOGO" tvg-logo="https://epg.v1.mk/logo/92PX-TENNIS_CHANNEL_LOGO.png" group-title="其他",ANN News
+ https://www.youtube.com/watch?v=coYw-eVU0Ks
+#EXTINF:-1,tvg-id="kbskorea" tvg-name="kbskorea" tvg-logo="https://epg.v1.mk/logo/kbskorea.png" group-title="其他",KBS KOREA
+ https://www.youtube.com/watch?v=HnfpTMtfFk8
+#EXTINF:-1,tvg-id="NBCNEWS" tvg-name="NBCNEWS" tvg-logo="https://epg.v1.mk/logo/NBCNEWS.png" group-title="其他",NBC NEW
+ https://www.youtube.com/watch?v=0IUbD_4ytuo
+#EXTINF:-1,tvg-id="NHKWORLD" tvg-name="NHKWORLD" tvg-logo="https://epg.v1.mk/logo/NHKWORLD.png" group-title="港澳台",NHK WORLD
+ https://www.youtube.com/watch?v=f0lYkdA-Gtw
+#EXTINF:-1,tvg-id="NHKWORLD" tvg-name="NHKWORLD" tvg-logo="https://epg.v1.mk/logo/NHKWORLD.png" group-title="港澳台",NHK WORLD
+https://nhkwlive-xjp.akamaized.net/hls/live/2003458/nhkwlive-xjp-en/index_1M.m3u8?zshijd
+#EXTINF:-1,tvg-id="CCTV-4中文国际%20欧洲" tvg-name="CCTV-4中文国际%20欧洲" tvg-logo="https://epg.v1.mk/logo/CCTV-4中文国际%20欧洲.png" group-title="央视",CCTV中文国际
+ https://www.youtube.com/watch?v=9sE12tg3CmA
