@@ -17,7 +17,7 @@ proxy-providers:
       interval: 300
     proxy: 🟢 直连
     url: "https://qq7le.no-mad-world.club/link/XKrN66xcbYbZ2vl0?sub=3&extend=1"
-    三瓜:
+  三瓜:
     type: http
     interval: 1800
     health-check:
