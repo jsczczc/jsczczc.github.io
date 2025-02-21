@@ -1,5 +1,5 @@
 proxy-providers:
-  CM优选:
+  宝可梦:
     type: http
     interval: 1800
     health-check:
@@ -7,8 +7,8 @@ proxy-providers:
       url: https://www.gstatic.com/generate_204
       interval: 300
     proxy: 🟢 直连
-    url: "https://cmjiedian.jsczczc.us.kg/acb4d776-431c-4701-9868-a41f32c6222c?sub=VLESS.fxxk.dedyn.io"
-  ak-trojan:
+    url: "https://52pokemon.xz61.cn/api/v1/client/subscribe?token=deb9f866b6cc26e301e7ef0bd370ffc3"
+  ikuuu:
     type: http
     interval: 1800
     health-check:
@@ -16,7 +16,17 @@ proxy-providers:
       url: https://www.gstatic.com/generate_204
       interval: 300
     proxy: 🟢 直连
-    url: "https://ak-trojan.jsczczc.us.kg/jsczczc"
+    url: "https://qq7le.no-mad-world.club/link/XKrN66xcbYbZ2vl0?sub=3&extend=1"
+    三瓜:
+    type: http
+    interval: 1800
+    health-check:
+      enable: true
+      url: https://www.gstatic.com/generate_204
+      interval: 300
+    proxy: 🟢 直连
+    url: "https://sanguayun.jiumaojiu.net/s/ac0a10e525cad85a032acaef33bac13d"
+
 
 proxies:
 - name: "🟢 直连"
