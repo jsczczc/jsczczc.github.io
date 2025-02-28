@@ -7,8 +7,7 @@ proxy-providers:
       url: https://www.gstatic.com/generate_204
       interval: 300
     proxy: 🟢 直连
-    url: "https://sanguayun.jiumaojiu.net/s/ac0a10e525cad85a032acaef33bac13d"
-    
+    url: "https://sanguayun.jiumaojiu.net/s/ac0a10e525cad85a032acaef33bac13d"    
   aisu:
     type: http
     interval: 1800
