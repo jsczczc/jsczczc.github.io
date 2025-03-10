@@ -9,7 +9,24 @@ proxy-providers:
       interval: 300
     proxy: 全球直连
     url: "机场订阅"
-    
+  Airport_02:
+    type: http
+    interval: 1800
+    health-check:
+      enable: true
+      url: https://www.gstatic.com/generate_204
+      interval: 300
+    proxy: 全球直连
+    url: "机场订阅"    
+  Airport_03:
+    type: http
+    interval: 1800
+    health-check:
+      enable: true
+      url: https://www.gstatic.com/generate_204
+      interval: 300
+    proxy: 全球直连
+    url: "机场订阅"    
 # 全局配置
 port: 7890
 socks-port: 7891
