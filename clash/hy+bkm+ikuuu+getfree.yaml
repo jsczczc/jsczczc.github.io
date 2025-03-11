@@ -378,8 +378,8 @@ class_yaml: &class_yaml {type: http, interval: 86400, behavior: classical, forma
 
 # 机场代理地址
 proxy-providers:  
-  自由人: {!!merge <<: *pp, url: "https://avf.a123.la/s/045dddbef39fbf550bec16127de88bb5"}
-  宝可梦: {!!merge <<: *pp, url: "https://52pokemon.xz61.cn/api/v1/client/subscribe?token=deb9f866b6cc26e301e7ef0bd370ffc3"}
+  红叶: {!!merge <<: *pp, url: "https://api-hy.02000.net/api/v1/client/subscribe?token=c1e7a542d82991f1011d0235ab4cc33f"}
+  宝可梦: {!!merge <<: *pp, url: "https://52pokemon.xz61.cn/api/v1/client/subscribe?token=a0ba644d6fa0276007e72df6e3ceb4a3"}
   IKUUU: {!!merge <<: *pp, url: "https://q7sq6.no-mad-world.club/link/XKrN66xcbYbZ2vl0?clash=3&extend=1"}
   GetFree: {!!merge <<: *pp, url: "https://rss.getfree.win/link/wUldJIJXgam1gVym?clash=1"}
 
