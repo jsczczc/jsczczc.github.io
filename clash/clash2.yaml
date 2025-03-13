@@ -381,7 +381,7 @@ proxy-providers:
   aisu: {!!merge <<: *pp, url: "https://client-sub.aisu.life/s/e5d9acfda18772ba5fa24ddda2b38042"}
   三瓜: {!!merge <<: *pp, url: "https://sanguayun.jiumaojiu.net/s/ac0a10e525cad85a032acaef33bac13d"}
   hongye: {!!merge <<: *pp, url: "https://api-hy.02000.net/api/v1/client/subscribe?token=c1e7a542d82991f1011d0235ab4cc33f"}
-
+  
 # 机场代理策略组分组
 proxy-groups:
 - {name: Proxy, type: select, proxies: [HK手选, HK自选, HK故转,TW手选, TW自选, TW故转, JP手选, JP故转, JP自选, US手选, US自选, US故转]}
