@@ -378,10 +378,11 @@ class_yaml: &class_yaml {type: http, interval: 86400, behavior: classical, forma
 
 # 机场代理地址
 proxy-providers:  
-  mitce: {!!merge <<: *pp, url: "https://app.mitce.com/?sid=232923&token=srvqnboj"}
+  aisu: {!!merge <<: *pp, url: "https://client-sub.aisu.life/s/e5d9acfda18772ba5fa24ddda2b38042"}
   宝可梦: {!!merge <<: *pp, url: "https://52pokemon.xz61.cn/api/v1/client/subscribe?token=a0ba644d6fa0276007e72df6e3ceb4a3"}
-  IKUUU: {!!merge <<: *pp, url: "https://q7sq6.no-mad-world.club/link/XKrN66xcbYbZ2vl0?clash=3&extend=1"}
+  IKUUU: {!!merge <<: *pp, url: "https://uylyo.no-mad-world.club/link/XKrN66xcbYbZ2vl0?clash=3&extend=1"}
   GetFree: {!!merge <<: *pp, url: "https://rss.getfree.win/link/wUldJIJXgam1gVym?clash=1"}
+  sangua: {!!merge <<: *pp, url: "https://sanguayun.jiumaojiu.net/s/ac0a10e525cad85a032acaef33bac13d"}
 
 
 # 机场代理策略组分组
