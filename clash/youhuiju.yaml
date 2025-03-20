@@ -378,7 +378,7 @@ class_yaml: &class_yaml {type: http, interval: 86400, behavior: classical, forma
 
 # 机场代理地址
 proxy-providers:  
-  LCyou: {!!merge <<: *pp, url: "https://cmjiedian.jsczczc.nyc.mn/acb4d776-431c-4701-9868-a41f32c6222c?sub=okv.sosorg.861120.xyz"}
+  LCyou: {!!merge <<: *pp, url: "https://cmjiedian.jsczczc.nyc.mn/acb4d776-431c-4701-9868-a41f32c6222c?sub=dev.sosorg.861120.xyz"}
   MRyou: {!!merge <<: *pp, url: "https://cmjiedian.jsczczc.nyc.mn/acb4d776-431c-4701-9868-a41f32c6222c?sub=owo.o00o.ooo"}
   CMyou: {!!merge <<: *pp, url: "https://cmjiedian.jsczczc.nyc.mn/acb4d776-431c-4701-9868-a41f32c6222c?sub=VLESS.fxxk.dedyn.io"}
   Czcyou: {!!merge <<: *pp, url: "https://cmlink.jsczczc.nyc.mn/czc"}
