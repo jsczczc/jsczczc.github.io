@@ -44,7 +44,7 @@ default-proxies-anchor: &default-proxies-anchor
   include-all: true
   proxies: [🚀 默认, 🇺🇸 美国, 🇨🇳 台湾, 🇭🇰 香港, 🇸🇬 狮城, 🇯🇵 日本, DIRECT]
 
-######## proxy groups
+######## proxy-groups
 proxy-groups:
   # Default
   - name: 🚀 默认
