@@ -85,7 +85,7 @@ proxy-providers:
     # override:
       # additional-prefix: "[订阅一]"
       
-  BaoKe:
+  Baoke:
     <<: *p
     # path: ./proxy_provider/订阅一.yaml
     url: "https://52pokemon.xz61.cn/api/v1/client/subscribe?token=a0ba644d6fa0276007e72df6e3ceb4a3"
