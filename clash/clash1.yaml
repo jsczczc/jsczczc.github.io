@@ -203,7 +203,6 @@ proxy-groups:
   - {name: ♻️ 自动选择, type: url-test, include-all: true, tolerance: 20, interval: 300, filter: "^((?!(直连)).)*$"}
   - {name: 🌐 全部节点, type: select, include-all: true}
 
-
 # 规则匹配
 # 此规则部分没有做防泄露处理，因为弊严重大于利！
 rules:
