@@ -1,0 +1,220 @@
+######## ports
+redir-port: 9797
+tproxy-port: 9898
+
+mixed-port: 8486
+
+######## basics
+mode: rule
+allow-lan: true
+
+log-level: warning
+
+######## web ui
+external-controller: :9090
+external-ui: metacubexd
+secret: 998486
+profile:
+  store-selected: true
+  store-fake-ip: true
+
+######## tun
+tun:
+  enable: true
+  stack: mixed
+  auto-route: true
+  auto-detect-interface: true
+  dns-hijack:
+    - any:53
+
+######## dns
+dns:
+  enable: true
+  listen: :53
+  enhanced-mode: fake-ip
+  fake-ip-range: 16.0.0.1/8
+
+######## anchors in proxy groups
+all-proxies-anchor: &all-proxies-anchor
+  type: select
+  include-all: true
+
+default-proxies-anchor: &default-proxies-anchor
+  type: select
+  include-all: true
+  proxies: [🚀 默认, 🇺🇸 美国, 🇨🇳 台湾, 🇭🇰 香港, 🇸🇬 狮城, 🇯🇵 日本, DIRECT]
+
+######## proxy groups
+proxy-groups:
+  # Default
+  - name: 🚀 默认
+    <<: *all-proxies-anchor
+    proxies: [🇺🇸 美国, 🇨🇳 台湾, 🇭🇰 香港, 🇸🇬 狮城, 🇯🇵 日本]
+
+  # Regions
+  - name: 🇺🇸 美国
+    <<: *all-proxies-anchor
+    filter: "US|🇺🇸|美国"
+
+  - name: 🇨🇳 台湾
+    <<: *all-proxies-anchor
+    filter: "TW|🇨🇳|🇹🇼|台湾"
+
+  - name: 🇭🇰 香港
+    <<: *all-proxies-anchor
+    filter: "HK|🇭🇰|香港"
+
+  - name: 🇸🇬 狮城
+    <<: *all-proxies-anchor
+    filter: "SG|🇸🇬|新加坡|狮城"
+
+  - name: 🇯🇵 日本
+    <<: *all-proxies-anchor
+    filter: "JP|🇯🇵|日本"
+
+  # Services
+  - name: 📹 Bahamut
+    <<: *all-proxies-anchor
+    # use 🇨🇳 台湾 by default
+    proxies: [🇨🇳 台湾, 🚀 默认, 🇺🇸 美国, 🇭🇰 香港, 🇸🇬 狮城, 🇯🇵 日本, DIRECT]
+
+  - name: Ⓜ Microsoft
+    <<: *default-proxies-anchor
+
+  - name: 🎬 Netflix
+    <<: *default-proxies-anchor
+
+  - name: 🎮 SteamCN
+    <<: *all-proxies-anchor
+    # use DIRECT by default
+    proxies: [DIRECT, 🚀 默认, 🇺🇸 美国, 🇨🇳 台湾, 🇭🇰 香港, 🇸🇬 狮城, 🇯🇵 日本]
+
+  - name: ✈ Telegram
+    <<: *default-proxies-anchor
+
+  - name: 🎥 YouTube
+    <<: *default-proxies-anchor
+
+######## proxy providers
+#proxy-providers:
+#  Local:
+#    type: file
+#    path: ./proxies/Local.yaml
+#    health-check:
+#      enable: true
+#      url: http://www.gstatic.com/generate_204
+#      interval: 7200
+
+   Subscription:
+     type: http
+     # your subscription url here
+     url: https://sanguayun.jiumaojiu.net/s/ac0a10e525cad85a032acaef33bac13d
+  #   path: ./proxies/Subscription.yaml
+  #   health-check:
+  #     enable: true
+  #     url: http://www.gstatic.com/generate_204
+  #     interval: 7200
+
+######## rule providers
+rule-anchor:
+  domain: &domain { type: http, interval: 86400, behavior: domain, format: mrs }
+  cidr: &cidr { type: http, interval: 86400, behavior: ipcidr, format: mrs }
+
+rule-providers:
+  # Custom Local Rules
+  custom-direct:
+    type: file
+    behavior: domain
+    path: ./custom-rules/direct.yaml
+
+  custom-proxy:
+    type: file
+    behavior: domain
+    path: ./custom-rules/proxy.yaml
+
+  custom-reject:
+    type: file
+    behavior: domain
+    path: ./custom-rules/reject.yaml
+
+  # Meta Rules https://github.com/MetaCubeX/meta-rules-dat/blob/meta/geo/geosite
+  # Domain Rules
+  apple:
+    <<: *domain
+    url: "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/apple.mrs"
+
+  bahamut:
+    <<: *domain
+    url: "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/bahamut.mrs"
+
+  cn:
+    <<: *domain
+    url: "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/cn.mrs"
+
+  icloud:
+    <<: *domain
+    url: "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/icloud.mrs"
+
+  microsoft:
+    <<: *domain
+    url: "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/microsoft.mrs"
+
+  netflix:
+    <<: *domain
+    url: "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/netflix.mrs"
+
+  private:
+    <<: *domain
+    url: "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/private.mrs"
+
+  steam@cn:
+    <<: *domain
+    url: "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/steam@cn.mrs"
+
+  telegram:
+    <<: *domain
+    url: "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/telegram.mrs"
+
+  youtube:
+    <<: *domain
+    url: "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/youtube.mrs"
+
+  # CIDR Rules
+  cncidr:
+    <<: *cidr
+    url: "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geoip/cn.mrs"
+
+  privatecidr:
+    <<: *cidr
+    url: "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geoip/private.mrs"
+
+  telegramcidr:
+    <<: *cidr
+    url: "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat//meta/geo/geoip/telegram.mrs"
+
+rules:
+  # Custom Local Rules
+  - RULE-SET,custom-direct,DIRECT
+  - RULE-SET,custom-reject,REJECT
+  - RULE-SET,custom-proxy,🚀 默认
+  # Meta Domain Direct
+  - RULE-SET,apple,DIRECT
+  - RULE-SET,cn,DIRECT
+  - RULE-SET,icloud,DIRECT
+  - RULE-SET,private,DIRECT
+  # Meta Domain Selectable
+  - RULE-SET,bahamut,📹 Bahamut
+  - RULE-SET,microsoft,Ⓜ Microsoft
+  - RULE-SET,netflix,🎬 Netflix
+  - RULE-SET,steam@cn,🎮 SteamCN
+  - RULE-SET,telegram,✈ Telegram
+  - RULE-SET,youtube,🎥 YouTube
+  # Meta Domain Proxy
+  # Meta CIDR Direct
+  - RULE-SET,cncidr,DIRECT,no-resolve
+  - RULE-SET,privatecidr,DIRECT,no-resolve
+  # Meta CIDR Selectable
+  - RULE-SET,telegramcidr,✈ Telegram,no-resolve
+  # Meta CIDR Proxy
+  # Others
+  - MATCH,🚀 默认
