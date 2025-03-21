@@ -175,21 +175,16 @@ dns:
 # 注意锚点必须放在引用的上方，可以集中把锚点全部放yaml的顶部。
 # 机场代理策略组分组
 proxy-groups:
-- {name: Proxy, type: select, proxies: [HK手选, HK自选, HK故转,TW手选, TW自选, TW故转, JP手选, JP故转, JP自选, US手选, US自选, US故转]}
+- {name: Proxy, type: select, proxies: [HK手选, HK自选,TW手选, TW自选,JP手选, JP自选, US手选, US自选]}
 - {name: All, type: select, include-all: true}
 - {name: HK手选, type: select, include-all: true, filter: "(?i)港|hk|hongkong|hong kong"}
 - {name: HK自选, !!merge <<: *pg_ut, include-all: true, filter: "(?=.*(港|HK|(?i)Hong))^((?!(台|日|韩|新|深|美)).)*$"}
-- {name: HK故转, !!merge <<: *pg_fb, include-all: true, filter: "(?=.*(港|HK|(?i)Hong))^((?!(台|日|韩|新|深|美)).)*$"}
 - {name: TW手选, type: select, include-all: true, filter: "(?i)台|tw|taiwan|tai wan"}
 - {name: TW自选, !!merge <<: *pg_ut, include-all: true, filter: "(?=.*(台|TW|(?i)taiwan))^((?!(港|日|韩|新|深|美)).)*$"}
-- {name: TW故转, !!merge <<: *pg_fb, include-all: true, filter: "(?=.*(台|TW|(?i)taiwan))^((?!(港|日|韩|新|深|美)).)*$"}
 - {name: JP手选, type: select, include-all: true, filter: "(?i)日|jp|japan"}
 - {name: JP自选, !!merge <<: *pg_ut, include-all: true, filter: "(?=.*(日|JP|(?i)Japan))^((?!(港|台|韩|新|美)).)*$"}
-- {name: JP故转, !!merge <<: *pg_fb, include-all: true, filter: "(?=.*(日|JP|(?i)Japan))^((?!(港|台|韩|新|美)).)*$"}
 - {name: US手选, type: select, include-all: true, filter: "(?i)美|us|unitedstates|united states"}
 - {name: US自选, !!merge <<: *pg_ut, include-all: true, filter: "(?=.*(美|US|(?i)States|America))^((?!(港|台|日|韩|新)).)*$"}
-- {name: US故转, !!merge <<: *pg_fb, include-all: true, filter: "(?=.*(美|US|(?i)States|America))^((?!(港|台|日|韩|新)).)*$"}
-
 
 # 规则匹配
 # 此规则部分没有做防泄露处理，因为弊严重大于利！
