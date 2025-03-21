@@ -29,7 +29,7 @@ proxy-providers:
       - "Clash"
       - "mihomo"
       - "Clash.meta"
-    Ikuuu:
+  Ikuuu:
     url: "https://uylyo.no-mad-world.club/link/XKrN66xcbYbZ2vl0?clash=3&extend=1"
     type: http
     interval: 86400
@@ -43,7 +43,7 @@ proxy-providers:
       - "Clash"
       - "mihomo"
       - "Clash.meta"
-    GetFree:
+  GetFree:
     url: "https://rss.getfree.win/link/wUldJIJXgam1gVym?clash=1"
     type: http
     interval: 86400
@@ -57,7 +57,7 @@ proxy-providers:
       - "Clash"
       - "mihomo"
       - "Clash.meta"
-    SanGua:
+  SanGua:
     url: "https://sanguayun.jiumaojiu.net/s/ac0a10e525cad85a032acaef33bac13d"
     type: http
     interval: 86400
