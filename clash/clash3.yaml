@@ -84,6 +84,7 @@ proxy-providers:
     # 如需要为该订阅组节点添加前缀，取消下面两行注释
     # override:
       # additional-prefix: "[订阅一]"
+      
   BaoKe:
     <<: *p
     # path: ./proxy_provider/订阅一.yaml
@@ -91,6 +92,7 @@ proxy-providers:
     # 如需要为该订阅组节点添加前缀，取消下面两行注释
     # override:
       # additional-prefix: "[订阅一]"
+      
   IKuuu:
     <<: *p
     # path: ./proxy_provider/订阅一.yaml
@@ -98,6 +100,7 @@ proxy-providers:
     # 如需要为该订阅组节点添加前缀，取消下面两行注释
     # override:
       # additional-prefix: "[订阅一]"
+      
   GetFree:
     <<: *p
     # path: ./proxy_provider/订阅一.yaml
