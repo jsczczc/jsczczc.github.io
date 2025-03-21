@@ -109,11 +109,11 @@ proxy-groups:
      type: http
      # your subscription url here
      url: https://sanguayun.jiumaojiu.net/s/ac0a10e525cad85a032acaef33bac13d
-  #   path: ./proxies/Subscription.yaml
-  #   health-check:
-  #     enable: true
-  #     url: http://www.gstatic.com/generate_204
-  #     interval: 7200
+     path: ./proxies/Subscription.yaml
+     health-check:
+       enable: true
+       url: http://www.gstatic.com/generate_204
+       interval: 7200
 
 ######## rule providers
 rule-anchor:
