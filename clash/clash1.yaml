@@ -12,7 +12,6 @@ proxy-providers:
     proxy: 直连
     header:
       User-Agent:
-      - "mihomo"
       - "Clash.meta"
   Baokem:
     url: "https://52pokemon.xz61.cn/api/v1/client/subscribe?token=a0ba644d6fa0276007e72df6e3ceb4a3"
