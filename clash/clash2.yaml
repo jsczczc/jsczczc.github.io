@@ -382,7 +382,7 @@ proxy-providers:
   Ikuuu: {!!merge <<: *pp, url: "https://uylyo.no-mad-world.club/link/XKrN66xcbYbZ2vl0?clash=3&extend=1"}
   GetFree: {!!merge <<: *pp, url: "https://rss.getfree.win/link/wUldJIJXgam1gVym?clash=1"}
   SanGua: {!!merge <<: *pp, url: "https://sanguayun.jiumaojiu.net/s/ac0a10e525cad85a032acaef33bac13d"}
-  Baokem: {!!merge <<: *pp, url: "https://52pokemon.xz61.cn/api/v1/client/subscribe?token=a0ba644d6fa0276007e72df6e3ceb4a3"}
+  Baokem: {!!merge <<: *pp, url: "https://52pokemon.xz61.cn/api/v1/client/subscribe?token=deb9f866b6cc26e301e7ef0bd370ffc3"}
   
 # 机场代理策略组分组
 proxy-groups:
