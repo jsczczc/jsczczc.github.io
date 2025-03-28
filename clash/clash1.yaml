@@ -1,8 +1,8 @@
 # 七尺宇新模板修改。注意规则在满足自己需求情况下，尽量做到精简，不要过度复杂，以免影响性能。
 # 机场订阅
 proxy-providers:
-  Aisu:
-    url: "https://client-sub.aisu.life/s/e5d9acfda18772ba5fa24ddda2b38042"
+  Tcyou:
+    url: "https://cmjiedian.jsczczc.nyc.mn/acb4d776-431c-4701-9868-a41f32c6222c?sub=alvless.sosorg.nyc.mn"
     type: http
     interval: 86400
     health-check:
@@ -15,8 +15,8 @@ proxy-providers:
       - "Clash"
       - "mihomo"
       - "Clash.meta"
-  Baokem:
-    url: "https://52pokemon.xz61.cn/api/v1/client/subscribe?token=a0ba644d6fa0276007e72df6e3ceb4a3"
+  Moistyou:
+    url: "https://cmjiedian.jsczczc.nyc.mn/acb4d776-431c-4701-9868-a41f32c6222c?sub=owo.o00o.ooo"
     type: http
     interval: 86400
     health-check:
@@ -29,8 +29,8 @@ proxy-providers:
       - "Clash"
       - "mihomo"
       - "Clash.meta"
-  Ikuuu:
-    url: "https://uylyo.no-mad-world.club/link/XKrN66xcbYbZ2vl0?clash=3&extend=1"
+  Lcyou:
+    url: "https://cmjiedian.jsczczc.nyc.mn/acb4d776-431c-4701-9868-a41f32c6222c?sub=cmv.sosorg.861120.xyz"
     type: http
     interval: 86400
     health-check:
@@ -43,8 +43,8 @@ proxy-providers:
       - "Clash"
       - "mihomo"
       - "Clash.meta"
-  GetFree:
-    url: "https://rss.getfree.win/link/wUldJIJXgam1gVym?clash=1"
+  Czclink:
+    url: "https://cmlink.jsczczc.nyc.mn/czc"
     type: http
     interval: 86400
     health-check:
@@ -57,8 +57,8 @@ proxy-providers:
       - "Clash"
       - "mihomo"
       - "Clash.meta"
-  SanGua:
-    url: "https://sanguayun.jiumaojiu.net/s/ac0a10e525cad85a032acaef33bac13d"
+  CMyou:
+    url: "https://cmjiedian.jsczczc.nyc.mn/acb4d776-431c-4701-9868-a41f32c6222c?sub=VLESS.fxxk.dedyn.io"
     type: http
     interval: 86400
     health-check:
