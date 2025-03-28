@@ -378,7 +378,7 @@ class_yaml: &class_yaml {type: http, interval: 86400, behavior: classical, forma
 
 # 机场代理地址
 proxy-providers:  
-  Aisu: {!!merge <<: *pp, url: "https://client-sub.aisu.life/s/e5d9acfda18772ba5fa24ddda2b38042"}
+  jinfan: {!!merge <<: *pp, url: "https://client-sub.jingfan.life/s/6ee2e0ace8177ae9139b41e594148010"}
   Ikuuu: {!!merge <<: *pp, url: "https://uylyo.no-mad-world.club/link/XKrN66xcbYbZ2vl0?clash=3&extend=1"}
   GetFree: {!!merge <<: *pp, url: "https://rss.getfree.win/link/wUldJIJXgam1gVym?clash=1"}
   SanGua: {!!merge <<: *pp, url: "https://sanguayun.jiumaojiu.net/s/ac0a10e525cad85a032acaef33bac13d"}
