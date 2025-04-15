@@ -381,8 +381,8 @@ proxy-providers:
   jinfan: {!!merge <<: *pp, url: "https://client-sub.jingfan.life/s/9285df8a00739ced0ab4478af7681544"}
   Ikuuu: {!!merge <<: *pp, url: "https://uylyo.no-mad-world.club/link/XKrN66xcbYbZ2vl0?clash=3&extend=1"}
   GetFree: {!!merge <<: *pp, url: "https://rss.getfree.win/link/wUldJIJXgam1gVym?clash=1"}
-  SanGua: {!!merge <<: *pp, url: "https://sanguayun.jiumaojiu.net/s/ac0a10e525cad85a032acaef33bac13d"}
-  Baokem: {!!merge <<: *pp, url: "https://52pokemon.xz61.cn/api/v1/client/subscribe?token=deb9f866b6cc26e301e7ef0bd370ffc3"}
+  SanGua: {!!merge <<: *pp, url: "https://sanguayun.jiumaojiu.net/s/7e764940b9e5fdbfaf63fef880150d41"}
+  Ziyiuren: {!!merge <<: *pp, url: "https://aaaaaaaaaaa.dddddddddddddd.cc/api/v1/client/subscribe?token=3ab5495bdaec56ff58a8f8b60c3d76b4"}
   
 # 机场代理策略组分组
 proxy-groups:
