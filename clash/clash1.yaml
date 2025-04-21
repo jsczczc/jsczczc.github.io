@@ -58,14 +58,14 @@ proxy-providers:
       - "mihomo"
       - "Clash.meta"
   CMyou:
-    url: "https://cmlink.jsczczc.nyc.mn/czc?sub=VLESS.fxxk.dedyn.io"
+    url: "https://cmlink.jsczczc.nyc.mn/czc?sub=SUB.CMLiussss.net"
     type: http
     interval: 86400
     health-check:
       enable: true
       url: https://www.gstatic.com/generate_204
       interval: 300
-    proxy: 日本节点
+    proxy: 直连
     header:
       User-Agent:
       - "Clash"
