@@ -2,7 +2,7 @@
 # 机场订阅
 proxy-providers:
   Tcyou:
-    url: "https://cmjiedian.jsczczc.nyc.mn/acb4d776-431c-4701-9868-a41f32c6222c?sub=alvless.sosorg.nyc.mn"
+    url: "https://cmjiedian.jsczczc.nyc.mn/acb4d776-431c-4701-9868-a41f32c6222c?sub=alvless.filegear-sg.me"
     type: http
     interval: 86400
     health-check:
@@ -30,7 +30,7 @@ proxy-providers:
       - "mihomo"
       - "Clash.meta"
   Lcyou:
-    url: "https://cmjiedian.jsczczc.nyc.mn/acb4d776-431c-4701-9868-a41f32c6222c?sub=cmv.sosorg.861120.xyz"
+    url: "https://cmjiedian.jsczczc.nyc.mn/acb4d776-431c-4701-9868-a41f32c6222c?sub=suv.sosorg.ggff.net"
     type: http
     interval: 86400
     health-check:
@@ -58,7 +58,7 @@ proxy-providers:
       - "mihomo"
       - "Clash.meta"
   CMyou:
-    url: "https://cmjiedian.jsczczc.nyc.mn/acb4d776-431c-4701-9868-a41f32c6222c?sub=VLESS.fxxk.dedyn.io"
+    url: "https://cmlink.jsczczc.nyc.mn/czc?sub=VLESS.fxxk.dedyn.io"
     type: http
     interval: 86400
     health-check:
