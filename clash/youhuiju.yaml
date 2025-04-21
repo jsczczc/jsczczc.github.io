@@ -378,10 +378,10 @@ class_yaml: &class_yaml {type: http, interval: 86400, behavior: classical, forma
 
 # 机场代理地址
 proxy-providers:  
-  LCyou: {!!merge <<: *pp, url: "https://cmjiedian.jsczczc.nyc.mn/acb4d776-431c-4701-9868-a41f32c6222c?sub=mkv.sosorg.861120.xyz"}
-  TCyou: {!!merge <<: *pp, url: "https://cmjiedian.jsczczc.nyc.mn/acb4d776-431c-4701-9868-a41f32c6222c?sub=alvless.sosorg.nyc.mn"}
+  LCyou: {!!merge <<: *pp, url: "https://cmjiedian.jsczczc.nyc.mn/acb4d776-431c-4701-9868-a41f32c6222c?sub=suv.sosorg.ggff.net"}
+  TCyou: {!!merge <<: *pp, url: "https://cmjiedian.jsczczc.nyc.mn/acb4d776-431c-4701-9868-a41f32c6222c?sub=alvless.filegear-sg.me"}
   MRyou: {!!merge <<: *pp, url: "https://cmjiedian.jsczczc.nyc.mn/acb4d776-431c-4701-9868-a41f32c6222c?sub=owo.o00o.ooo"}
-  CMyou: {!!merge <<: *pp, url: "https://cmjiedian.jsczczc.nyc.mn/acb4d776-431c-4701-9868-a41f32c6222c?sub=VLESS.fxxk.dedyn.io"}
+  CMyou: {!!merge <<: *pp, url: "https://cmlink.jsczczc.nyc.mn/czc?sub=SUB.CMLiussss.net"}
   Czcyou: {!!merge <<: *pp, url: "https://cmlink.jsczczc.nyc.mn/czc"}
 
   
