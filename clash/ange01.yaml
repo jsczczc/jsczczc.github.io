@@ -1,13 +1,13 @@
 # ========================
-# Clash-ALL 优化配置
+# Clash-ALL 优化配置（安格视界）
 # ========================
 
 # 机场节点订阅
 
 proxy-providers:
 
-  火烧云:
-    url: "[订阅地址（机场原始地址/Sub-Store格式化后的地址）]"
+  IKUUU:
+    url: "https://uylyo.no-mad-world.club/link/XKrN66xcbYbZ2vl0?clash=3&extend=1"
     type: http
     interval: 86400
     health-check:
@@ -16,8 +16,8 @@ proxy-providers:
       interval: 300
     proxy: 直连 
 
-  小牛:
-    url: "[订阅地址（机场原始地址/Sub-Store格式化后的地址）]"
+  GetFree:
+    url: "https://rss.getfree.win/link/wUldJIJXgam1gVym?clash=1"
     type: http
     interval: 86400
     health-check:
@@ -26,8 +26,8 @@ proxy-providers:
       interval: 300
     proxy: 直连    
 
-  硅谷:
-    url: "[订阅地址（机场原始地址/Sub-Store格式化后的地址）]"
+  baoke:
+    url: "https://52pokemon.xz61.cn/api/v1/client/subscribe?token=deb9f866b6cc26e301e7ef0bd370ffc3"
     type: http
     interval: 86400
     health-check:
@@ -36,8 +36,8 @@ proxy-providers:
       interval: 300
     proxy: 直连      
    
-  猫耳:
-    url: "[订阅地址（机场原始地址/Sub-Store格式化后的地址）]"
+  ziyouren:
+    url: "https://aaaaaaaaaaa.dddddddddddddd.cc/api/v1/client/subscribe?token=3ab5495bdaec56ff58a8f8b60c3d76b4"
     type: http
     interval: 86400
     health-check:
@@ -46,8 +46,8 @@ proxy-providers:
       interval: 300
     proxy: 直连   
 
-  快猫:
-    url: "[订阅地址（机场原始地址/Sub-Store格式化后的地址）]"
+  CAC:
+    url: "https://submit.xz61.cn:23443/api/v1/client/subscribe?token=a1bf0e14d21d32d203663b2d751b858a"
     type: http
     interval: 86400
     health-check:
@@ -55,16 +55,6 @@ proxy-providers:
       url: https://www.gstatic.com/generate_204
       interval: 300
     proxy: 直连    
-
-  牛逼:
-    url: "[订阅地址（机场原始地址/Sub-Store格式化后的地址）]"
-    type: http
-    interval: 86400
-    health-check:
-      enable: true
-      url: https://www.gstatic.com/generate_204
-      interval: 300
-    proxy: 直连      
 
 proxies:
   - {name: 直连, type: direct}
