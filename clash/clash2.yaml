@@ -378,7 +378,7 @@ class_yaml: &class_yaml {type: http, interval: 86400, behavior: classical, forma
 
 # 机场代理地址
 proxy-providers:  
-  jinfan: {!!merge <<: *pp, url: "https://client-sub.jingfan.life/s/9285df8a00739ced0ab4478af7681544"}
+  cac: {!!merge <<: *pp, url: "https://submit.xz61.cn:23443/api/v1/client/subscribe?token=a1bf0e14d21d32d203663b2d751b858a"}
   Ikuuu: {!!merge <<: *pp, url: "https://uylyo.no-mad-world.club/link/XKrN66xcbYbZ2vl0?clash=3&extend=1"}
   GetFree: {!!merge <<: *pp, url: "https://rss.getfree.win/link/wUldJIJXgam1gVym?clash=1"}
   baoke: {!!merge <<: *pp, url: "https://52pokemon.xz61.cn/api/v1/client/subscribe?token=deb9f866b6cc26e301e7ef0bd370ffc3"}
