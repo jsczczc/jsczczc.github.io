@@ -77,7 +77,7 @@ external-controller: 0.0.0.0:9090
 external-ui: ui
 external-ui-name: zashboard
 external-ui-url: https://github.moeyy.xyz/https://github.com/Zephyruso/zashboard/archive/refs/heads/gh-pages.zip
-secret: "123456"
+secret: "912114"
 
 # ========================
 # DNS 设置
@@ -89,7 +89,7 @@ dns:
   enhanced-mode: fake-ip
   fake-ip-range: 198.20.0.1/16
   nameserver:
-    - 223.5.5.5
+    - 221.131.143.69
   fake-ip-filter:
     - +.lan
     - +.local
