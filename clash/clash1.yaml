@@ -1,32 +1,57 @@
-# 机场订阅，名称不能重复
+# 机场节点订阅
+
 proxy-providers:
-  Airport_01:
+
+  IKUUU:
+    url: "https://uylyo.no-mad-world.club/link/XKrN66xcbYbZ2vl0?clash=3&extend=1"
     type: http
-    interval: 1800
+    interval: 86400
     health-check:
       enable: true
       url: https://www.gstatic.com/generate_204
       interval: 300
-    proxy: 全球直连
-    url: "机场订阅"
-  Airport_02:
+    proxy: 直连 
+
+  GetFree:
+    url: "https://rss.getfree.win/link/wUldJIJXgam1gVym?clash=1"
     type: http
-    interval: 1800
+    interval: 86400
     health-check:
       enable: true
       url: https://www.gstatic.com/generate_204
       interval: 300
-    proxy: 全球直连
-    url: "机场订阅"    
-  Airport_03:
+    proxy: 全球直连    
+
+  edge:
+    url: "https://edgesub.trafficmanager.net/edgesubs/client/?token=344a2b2d6eaf57a950a4d592ede2bd49"
     type: http
-    interval: 1800
+    interval: 86400
     health-check:
       enable: true
       url: https://www.gstatic.com/generate_204
       interval: 300
-    proxy: 全球直连
-    url: "机场订阅"    
+    proxy: 全球直连      
+   
+  ziyouren:
+    url: "https://aaaaaaaaaaa.dddddddddddddd.cc/api/v1/client/subscribe?token=3ab5495bdaec56ff58a8f8b60c3d76b4"
+    type: http
+    interval: 86400
+    health-check:
+      enable: true
+      url: https://www.gstatic.com/generate_204
+      interval: 300
+    proxy: 全球直连   
+
+  CAC:
+    url: "https://submit.xz61.cn:23443/api/v1/client/subscribe?token=a1bf0e14d21d32d203663b2d751b858a"
+    type: http
+    interval: 86400
+    health-check:
+      enable: true
+      url: https://www.gstatic.com/generate_204
+      interval: 300
+    proxy: 全球直连    
+   
 # 全局配置
 port: 7890
 socks-port: 7891
