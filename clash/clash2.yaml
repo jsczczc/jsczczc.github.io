@@ -381,7 +381,7 @@ proxy-providers:
   cac: {!!merge <<: *pp, url: "https://submit.xz61.cn:23443/api/v1/client/subscribe?token=a1bf0e14d21d32d203663b2d751b858a"}
   Ikuuu: {!!merge <<: *pp, url: "https://uylyo.no-mad-world.club/link/XKrN66xcbYbZ2vl0?clash=3&extend=1"}
   GetFree: {!!merge <<: *pp, url: "https://rss.getfree.win/link/wUldJIJXgam1gVym?clash=1"}
-  edgesub: {!!merge <<: *pp, url: "https://edgesub.trafficmanager.net/edgesubs/client/?token=344a2b2d6eaf57a950a4d592ede2bd49"}
+  edgesub: {!!merge <<: *pp, url: "https://edgesub.trafficmanager.net/edgesubs/client/?token=4577d430eaab8fc4543d7d97990c0ab7"}
   Ziyiuren: {!!merge <<: *pp, url: "https://aaaaaaaaaaa.dddddddddddddd.cc/api/v1/client/subscribe?token=3ab5495bdaec56ff58a8f8b60c3d76b4"}
   
 # 机场代理策略组分组
