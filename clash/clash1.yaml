@@ -23,7 +23,7 @@ proxy-providers:
     proxy: 全球直连    
 
   edge:
-    url: "https://edgesub.trafficmanager.net/edgesubs/client/?token=344a2b2d6eaf57a950a4d592ede2bd49"
+    url: "https://edgesub.trafficmanager.net/edgesubs/client/?token=4577d430eaab8fc4543d7d97990c0ab7"
     type: http
     interval: 86400
     health-check:
