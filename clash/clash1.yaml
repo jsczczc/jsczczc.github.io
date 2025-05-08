@@ -10,7 +10,7 @@ proxy-providers:
       enable: true
       url: https://www.gstatic.com/generate_204
       interval: 300
-    proxy: 直连 
+    proxy: 全球直连 
 
   GetFree:
     url: "https://rss.getfree.win/link/wUldJIJXgam1gVym?clash=1"
@@ -33,7 +33,7 @@ proxy-providers:
     proxy: 全球直连      
    
   ziyouren:
-    url: "https://aaaaaaaaaaa.dddddddddddddd.cc/api/v1/client/subscribe?token=3ab5495bdaec56ff58a8f8b60c3d76b4"
+    url: "https://aaaaaaaaaaa.dddddddddddddd.cc/api/v1/client/subscribe?token=f564d32f6f4a2810652fdd6fd3941b0a"
     type: http
     interval: 86400
     health-check:
