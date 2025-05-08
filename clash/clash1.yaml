@@ -42,8 +42,8 @@ proxy-providers:
       interval: 300
     proxy: 全球直连   
 
-  CAC:
-    url: "https://submit.xz61.cn:23443/api/v1/client/subscribe?token=a1bf0e14d21d32d203663b2d751b858a"
+  xueshan:
+    url: "https://x2.xueshan.shop/s/e487003eaf1ade578e7adc54b08827ce"
     type: http
     interval: 86400
     health-check:
