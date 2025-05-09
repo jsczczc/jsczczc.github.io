@@ -2,8 +2,8 @@
 
 proxy-providers:
 
-  IKUUU:
-    url: "https://uylyo.no-mad-world.club/link/XKrN66xcbYbZ2vl0?clash=3&extend=1"
+  Baoke:
+    url: "https://52pokemon.xz61.cn/api/v1/client/subscribe?token=a0ba644d6fa0276007e72df6e3ceb4a3"
     type: http
     interval: 86400
     health-check:
