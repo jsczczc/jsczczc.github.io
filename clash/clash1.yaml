@@ -2,8 +2,8 @@
 
 proxy-providers:
 
-  Edge:
-    url: "https://edgesub.trafficmanager.net/edgesubs/client/?token=4577d430eaab8fc4543d7d97990c0ab7"
+  Gogo:
+    url: "https://gogo.kkhhddnn.cn/api/v1/client/subscribe?token=a7989075c19ca5b48651af195a70b8ae"
     type: http
     interval: 86400
     health-check:
