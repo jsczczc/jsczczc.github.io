@@ -2,8 +2,8 @@
 
 proxy-providers:
 
-  Baoke:
-    url: "https://52pokemon.xz61.cn/api/v1/client/subscribe?token=a0ba644d6fa0276007e72df6e3ceb4a3"
+  Edge:
+    url: "https://edgesub.trafficmanager.net/edgesubs/client/?token=4577d430eaab8fc4543d7d97990c0ab7"
     type: http
     interval: 86400
     health-check:
