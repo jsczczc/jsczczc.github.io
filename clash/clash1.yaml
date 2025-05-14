@@ -22,8 +22,8 @@ proxy-providers:
       interval: 300
     proxy: 全球直连    
 
-  edge:
-    url: "https://edgesub.trafficmanager.net/edgesubs/client/?token=4577d430eaab8fc4543d7d97990c0ab7"
+  kristi:
+    url: "https://mot.gike.dpdns.org/N49o8kZF0qp0447j3kyc"
     type: http
     interval: 86400
     health-check:
@@ -32,8 +32,8 @@ proxy-providers:
       interval: 300
     proxy: 全球直连      
    
-  zyren:
-    url: "https://jdsjk-js3dkd.zyrdns.cc/api/v1/client/subscribe?token=f564d32f6f4a2810652fdd6fd3941b0a"
+  cmlink:
+    url: "https://cmlink.jsczczc.nyc.mn/czc"
     type: http
     interval: 86400
     health-check:
