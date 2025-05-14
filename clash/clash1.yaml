@@ -32,7 +32,7 @@ proxy-providers:
       interval: 300
     proxy: 全球直连      
    
-  cmlink:
+  czclink:
     url: "https://cmlink.jsczczc.nyc.mn/czc"
     type: http
     interval: 86400
