@@ -15,6 +15,7 @@ proxy-providers:
       url: https://www.gstatic.com/generate_204
       interval: 300
     proxy: 直连 
+ 
 
   GetFree:
     url: "https://rss.getfree.win/link/wUldJIJXgam1gVym?clash=1"
