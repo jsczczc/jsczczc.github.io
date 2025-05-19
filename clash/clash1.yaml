@@ -2,8 +2,8 @@
 
 proxy-providers:
 
-  Gogo:
-    url: "https://gogo.kkhhddnn.cn/api/v1/client/subscribe?token=a7989075c19ca5b48651af195a70b8ae"
+  ziyouren:
+    url: "https://jdsjk-js3dkd.zyrdns.cc/api/v1/client/subscribe?token=f564d32f6f4a2810652fdd6fd3941b0a"
     type: http
     interval: 86400
     health-check:
