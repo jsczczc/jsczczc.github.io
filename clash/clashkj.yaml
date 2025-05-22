@@ -379,7 +379,7 @@ class_yaml: &class_yaml {type: http, interval: 86400, behavior: classical, forma
 # 机场代理地址
 proxy-providers:  
   kristi: {!!merge <<: *pp, url: "https://mot.gike.dpdns.org/N49o8kZF0qp0447j3kyc"}
-  Ikuuu: {!!merge <<: *pp, url: "hhttps://uxtua.no-mad-world.club/link/XKrN66xcbYbZ2vl0?clash=3&extend=1"}
+  Ikuuu: {!!merge <<: *pp, url: "https://uxtua.no-mad-world.club/link/XKrN66xcbYbZ2vl0?clash=3&extend=1"}
   GetFree: {!!merge <<: *pp, url: "https://rss.getfree.win/link/wUldJIJXgam1gVym?clash=1"}
   Czclink: {!!merge <<: *pp, url: "https://cmlink.jsczczc.nyc.mn/czc"}
   Ziyiuren: {!!merge <<: *pp, url: "https://jdsjk-js3dkd.zyrdns.cc/api/v1/client/subscribe?token=f564d32f6f4a2810652fdd6fd3941b0a"}
