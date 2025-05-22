@@ -378,11 +378,11 @@ class_yaml: &class_yaml {type: http, interval: 86400, behavior: classical, forma
 
 # 机场代理地址
 proxy-providers:  
-  cac: {!!merge <<: *pp, url: "https://submit.xz61.cn:23443/api/v1/client/subscribe?token=a1bf0e14d21d32d203663b2d751b858a"}
-  Ikuuu: {!!merge <<: *pp, url: "https://uylyo.no-mad-world.club/link/XKrN66xcbYbZ2vl0?clash=3&extend=1"}
+  kristi: {!!merge <<: *pp, url: "https://mot.gike.dpdns.org/N49o8kZF0qp0447j3kyc"}
+  Ikuuu: {!!merge <<: *pp, url: "hhttps://uxtua.no-mad-world.club/link/XKrN66xcbYbZ2vl0?clash=3&extend=1"}
   GetFree: {!!merge <<: *pp, url: "https://rss.getfree.win/link/wUldJIJXgam1gVym?clash=1"}
-  edgesub: {!!merge <<: *pp, url: "https://edgesub.trafficmanager.net/edgesubs/client/?token=4577d430eaab8fc4543d7d97990c0ab7"}
-  Ziyiuren: {!!merge <<: *pp, url: "https://aaaaaaaaaaa.dddddddddddddd.cc/api/v1/client/subscribe?token=3ab5495bdaec56ff58a8f8b60c3d76b4"}
+  Czclink: {!!merge <<: *pp, url: "https://cmlink.jsczczc.nyc.mn/czc"}
+  Ziyiuren: {!!merge <<: *pp, url: "https://jdsjk-js3dkd.zyrdns.cc/api/v1/client/subscribe?token=f564d32f6f4a2810652fdd6fd3941b0a"}
   
 # 机场代理策略组分组
 proxy-groups:
