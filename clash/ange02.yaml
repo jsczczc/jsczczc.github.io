@@ -6,8 +6,8 @@
 
 proxy-providers:
 
-  火烧:
-    url: "[订阅地址（机场原始地址/Sub-Store格式化后的地址）]"
+  IKUUU:
+    url: "https://uxtua.no-mad-world.club/link/XKrN66xcbYbZ2vl0?clash=3&extend=1"
     type: http
     interval: 86400
     health-check:
@@ -16,8 +16,8 @@ proxy-providers:
       interval: 300
     proxy: 直连 
 
-  冰云:
-    url: "[订阅地址（机场原始地址/Sub-Store格式化后的地址）]"
+  GetFree:
+    url: "https://rss.getfree.win/link/wUldJIJXgam1gVym?clash=1"
     type: http
     interval: 86400
     health-check:
@@ -26,8 +26,8 @@ proxy-providers:
       interval: 300
     proxy: 直连  
     
-  小牛:
-    url: "[订阅地址（机场原始地址/Sub-Store格式化后的地址）]"
+  Kristi:
+    url: "https://mot.gike.dpdns.org/N49o8kZF0qp0447j3kyc"
     type: http
     interval: 86400
     health-check:
@@ -36,8 +36,8 @@ proxy-providers:
       interval: 300
     proxy: 直连    
 
-  硅谷:
-    url: "[订阅地址（机场原始地址/Sub-Store格式化后的地址）]"
+  Ziyouren:
+    url: "https://jdsjk-js3dkd.zyrdns.cc/api/v1/client/subscribe?token=f564d32f6f4a2810652fdd6fd3941b0a"
     type: http
     interval: 86400
     health-check:
@@ -46,8 +46,8 @@ proxy-providers:
       interval: 300
     proxy: 直连
 
-  无界:
-    url: "[订阅地址（机场原始地址/Sub-Store格式化后的地址）]"
+  Czclink:
+    url: "https://cmlink.jsczczc.nyc.mn/czc"
     type: http
     interval: 86400
     health-check:
@@ -56,8 +56,8 @@ proxy-providers:
       interval: 300
     proxy: 直连
    
-  猫耳:
-    url: "[订阅地址（机场原始地址/Sub-Store格式化后的地址）]"
+  Baokemeng:
+    url: "https://52pokemon.xz61.cn/api/v1/client/subscribe?token=deb9f866b6cc26e301e7ef0bd370ffc3"
     type: http
     interval: 86400
     health-check:
@@ -66,37 +66,7 @@ proxy-providers:
       interval: 300
     proxy: 直连   
 
-  快猫:
-    url: "[订阅地址（机场原始地址/Sub-Store格式化后的地址）]"
-    type: http
-    interval: 86400
-    health-check:
-      enable: true
-      url: https://www.gstatic.com/generate_204
-      interval: 300
-    proxy: 直连    
-    
-  BestVPN:
-    url: "[订阅地址（机场原始地址/Sub-Store格式化后的地址）]"
-    type: http
-    interval: 86400
-    health-check:
-      enable: true
-      url: https://www.gstatic.com/generate_204
-      interval: 300
-    proxy: 直连    
-
-  牛逼:
-    url: "[订阅地址（机场原始地址/Sub-Store格式化后的地址）]"
-    type: http
-    interval: 86400
-    health-check:
-      enable: true
-      url: https://www.gstatic.com/generate_204
-      interval: 300
-    proxy: 直连      
-
-proxies:
+ proxies:
   - {name: 直连, type: direct}
   - {name: 拒绝, type: reject}
 
