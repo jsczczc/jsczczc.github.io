@@ -66,7 +66,7 @@ proxy-providers:
       interval: 300
     proxy: 直连   
 
- proxies:
+proxies:
   - {name: 直连, type: direct}
   - {name: 拒绝, type: reject}
 
