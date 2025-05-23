@@ -87,7 +87,7 @@ external-controller: 0.0.0.0:9090
 # external-ui: ui
 # external-ui-name: zashboard
 # external-ui-url: https://github.moeyy.xyz/https://github.com/Zephyruso/zashboard/archive/refs/heads/gh-pages.zip
-secret: "123456"
+secret: "912114"
 
 # ========================
 # DNS 设置
