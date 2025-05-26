@@ -37,7 +37,7 @@ proxy-providers:
     proxy: 直连    
 
   Ziyouren:
-    url: "https://jdsjk-js3dkd.zyrdns.cc/api/v1/client/subscribe?token=f564d32f6f4a2810652fdd6fd3941b0a"
+    url: "https://akyun.xyz/AECC?token=f564d32f6f4a2810652fdd6fd3941b0a"
     type: http
     interval: 86400
     health-check:
