@@ -27,7 +27,7 @@ proxy-providers:
     proxy: 直连  
     
   Kristi:
-    url: "https://mot.gike.dpdns.org/N49o8kZF0qp0447j3kyc"
+    url: "https://oty.myto.ip-ddns.com/jJh3s4xu97d5eNPi7e0T"
     type: http
     interval: 86400
     health-check:
