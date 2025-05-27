@@ -27,7 +27,7 @@ proxy-providers:
     proxy: 直连  
     
   Kristi:
-    url: "https://oty.myto.ip-ddns.com/jJh3s4xu97d5eNPi7e0T"
+    url: "https://mot.gike.dpdns.org/N49o8kZF0qp0447j3kyc"
     type: http
     interval: 86400
     health-check:
@@ -37,7 +37,7 @@ proxy-providers:
     proxy: 直连    
 
   Ziyouren:
-    url: "https://akyun.xyz/AECC?token=f564d32f6f4a2810652fdd6fd3941b0a"
+    url: "https://ziyouren.bond/AECC?token=4a784e51bf17affe5880733494b35aaa"
     type: http
     interval: 86400
     health-check:
