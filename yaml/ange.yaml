@@ -37,7 +37,7 @@ proxy-providers:
     proxy: 直连    
 
   ggok:
-    url: "https://rss.okxyz.xyz/link/Q0tySdUqHoa69OfO?mu=2"
+    url: "https://rss.ccgfw.top/link/Q0tySdUqHoa69OfO?mu=2"
     type: http
     interval: 86400
     health-check:
@@ -46,8 +46,8 @@ proxy-providers:
       interval: 300
     proxy: 香港-自动
 
-  mistmy:
-    url: "https://9770f00d98e.bigbigwatermelon.com/s?token=5eb6277a464afcdc42c45bc85473866e"
+  老王azure:
+    url: "https://merge.zabc.net/b51e161b6af6a7f0b99a"
     type: http
     interval: 86400
     health-check:
@@ -57,7 +57,7 @@ proxy-providers:
     proxy: 直连
    
   Baokemeng:
-    url: "https://52pokemon.sdnlv0.cn/api/v1/client/subscribe?token=2aae3e0538f6d174f044e3662c3057b7"
+    url: "https://pokelink.xn--4gsvmh74cwxi.cn/api/v1/client/subscribe?token=2aae3e0538f6d174f044e3662c3057b7"
     type: http
     interval: 86400
     health-check:
