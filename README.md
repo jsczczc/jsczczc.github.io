@@ -1,3 +1,4 @@
+
 # 💸 给英文不好的朋友
 
 ● GitHub 中文化插件 🔰https://greasyfork.org/zh-CN/scripts/435208
@@ -11,7 +12,7 @@
 
 ● clash订阅链接：🔰https://git.io/emzclash
 
-● v2ray订阅链接：🔰https://git.io/emzv2ray
+● v2ray订阅链接：🔰https://git.io/emzv2ray  ●V2Ray添加后需开代理才能更新订阅●
 
 手机用户无法访问上方短链接时可以用下面的长链接
 
@@ -20,6 +21,10 @@
 ● v2ray订阅链接：🔰https://raw.githubusercontent.com/ermaozi/get_subscribe/main/subscribe/v2ray.txt
 
 🔰[参考](https://github.com/ermaozi/get_subscribe/tree/main)🔰    🔰[clashfee](https://t.me/s/v2raydailyupdate)🔰    🔰[生成SS节点](https://github.com/anonymous-en/ss_extractor_gui/tree/v1.1.0)🔰    🔰[生成节点](https://github.com/anonymous-en/bpbvless/tree/v1.0.2)🔰
+
+🔰[Clash节点](https://github.com/aiboboxx/clashfree)🔰   🔰[v2Ray节点](https://github.com/aiboboxx/v2rayfree)🔰
+
+🔰[free v2ray](https://github.com/barry-far/V2ray-Configs)🔰   🔰[free v2ray](https://github.com/Barabama/FreeNodes)🔰   🔰[free v2ray](https://github.com/Pawdroid/Free-servers)🔰   🔰🔰
     
 
 # 📘 各类客户端
@@ -33,6 +38,60 @@
 ● Hiddify：🔰https://github.com/hiddify/hiddify-app
 
 ● GUI for SingBox：🔰https://github.com/GUI-for-Cores/GUI.for.SingBox
+
+
+# 📺 直播源汇总………   
+
+● iptv-api：IPTV电视直播源更新工具
+[链接](https://github.com/Guovin/iptv-api)  
+
+● Myiptv：附带检测与分类功能
+[链接](https://github.com/abc1763613206/myiptv)  
+
+● 全球公共IPTV频道: 收集来自世界各地的5000多个公共频道
+[链接](https://github.com/iptv-org/iptv)  
+
+● 国内直播源: 主要电视节目
+[链接](https://myernestlu.github.io/zby.txt)  
+
+● 直播源列表: 主要电视节目
+[链接](http://epg.51zmt.top:8000/)  
+
+● flowus-TVBox接口及客户端，长期更新
+[链接](https://flowus.cn/share/cb13f47f-f1fa-41d4-bcc6-e184bcc64f56)  
+
+● 直播源相关资源汇总: IPTV、M3U
+[链接](https://github.com/imDazui/Tvlist-awesome-m3u-m3u8#%E5%B7%A5%E5%85%B7)  
+
+● IPTVindex: 电视直播、影视点播、电脑软件
+[链接](https://www.iptvindex.com/)  
+
+● fanmingming/live: 国内可直连的直播源分享项目，永久免费，支持IPv4/IPv6双栈访问
+[链接](https://github.com/fanmingming/live)  
+
+● TVBoxSource: TVBox源以及仓库源、直播源，tvbox配置汇总
+[链接](https://github.com/felixiao/tvboxsource)  
+
+● m3u 直播源：佛系更新
+[链接](https://github.com/YanG-1989/m3u)  
+
+● IPTV: 自动整合好趣网直播源+TVBox直播源+其他网上直播源，择取分辨率、速度最佳视频流，定期更新
+[链接](https://github.com/joevess/IPTV)  
+
+● Rivens7/Livelist: IPTV-ipv6直播源同步及常看直播，基于Moexin/IPTV项目修改
+[Rivens7链接](https://github.com/Rivens7/Livelist)    [Moexin链接](https://github.com/Moexin/IPTV/tree/Files)
+
+● Ftindy/IPTV-URL: Ftindy精选、BigBigGrandG、APTV、YanG
+[链接 ](https://github.com/Ftindy/IPTV-URL) 
+
+● https://github.com/Guovin/iptv-api   
+打开项目后组播源地址位于 output/rtp 目录下。
+
+● https://github.com/xisohi/CHINA-IPTV  
+在这个项目的“源地址”一栏中，你可以找到对应你的省份及运营商的直播源，把对应地址粘贴在 VLC Player 中进行播放。如果可以播放，那么恭喜你。
+
+● https://github.com/wcb1969/iptv  
+打开项目后，使用 CTRL+F 搜索你的省份和运营商，打开该链接后，同样点击 Raw，然后复制地址栏中的地址。将其粘贴在 VLC Player 中尝试进行播放。
 
 
 # ⭐ 影视源接口分享 影视仓配置接口大全
@@ -415,4 +474,12 @@ https://github.com/Sppotato/Sppotato.github.io
 
 https://github.com/m3u8playlist/tvlogo
 
-本页面只是收集Box，自用请勿宣传。
+# 8、常用IP获取
+
+cleanIP/优选IP：[优选1](https://www.wetest.vip/page/cloudflare/address_v4.html)  [优选2](https://ipdb.030101.xyz/bestcf/)  [优选3](https://stock.hostmonit.com/CloudFlareYes)  [优选4](https://mrxn.net/BESTCFDOMAIN)
+
+PROXYIP：[地址1](https://ipdb.030101.xyz/bestproxy/)  [地址2](https://www.nslookup.io/domains/bpb.yousef.isegaro.com/dns-records/)
+
+
+
+# 本页面只是收集、自用，#来源：jymyong.github.io 
